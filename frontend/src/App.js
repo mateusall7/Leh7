@@ -6,7 +6,7 @@ import ChessGame from "./components/ChessGame";
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+     <HashRouter>
         <Routes>
           <Route path="/" element={<ChessGame />} />
         </Routes>
